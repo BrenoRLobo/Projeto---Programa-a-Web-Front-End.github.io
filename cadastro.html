@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
     <title>Cadastro</title>
+    <script>
+        function trocarPagina() {
+            // Redireciona para a página desejada
+            window.location.href = "login.html";
+        }
+    </script>
 </head>
 
 <body>
@@ -12,7 +18,7 @@
         <div class="caixa">
             <img src="img/logo.png" alt="">
             <h1>Bem-Vindo a MoneyMentor</h1>
-            <h3>Cadastro</h3>
+            <p class="sub">Cadastro</p>
             <div class="name">
                 <input type="text" placeholder="Nome">
             </div>
@@ -30,7 +36,7 @@
             </div>
             <div class="entrar">
                 <p>Já possui uma conta? <a href="login.html">Acesse aqui.</a></p>
-                <input type="submit" value="Cadastrar">
+                <input type="submit" value="Cadastrar" onclick="trocarPagina()">
             </div>
 
         </div>
