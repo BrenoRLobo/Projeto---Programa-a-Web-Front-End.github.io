@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul id="nav_list">
+                <li id="nav_item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li id="nav_item">
+                    <a href="admin.html">Admin</a>
+                </li>
+                <li id="nav_item">
+                    <a href="login.html">Sair</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="admin">
+        <h1>Página de Administração</h1>
+        <p class="sub">Cadastro de Usuários</p>
+        <form id="userForm">
+            <input type="text" id="username" name="username" placeholder="Nome"required>
+            <br>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <br>
+            <button type="submit" class="cadastro">Cadastrar</button>
+            <button type="button" class="cadastro" id="clearForm">Limpar</button>
+        </form>
+        <input type="text" id="search" placeholder="Pesquisar...">
+        <button type="button" class="cadastro" id="clearList">Excluir Itens</button>
+        <ul id="userList"></ul>
+        <script src="script2.js"></script>
+    </div>
+</body>
+</html>

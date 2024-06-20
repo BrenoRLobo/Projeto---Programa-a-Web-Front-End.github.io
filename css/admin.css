@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #212830;
+    color: white;
+}
+
+header {
+
+    padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-primary-1);
+    z-index: 3;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#admin{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+#nav_item a {
+    text-decoration: none;
+    color: #ffffffad;
+    font-weight: 600;
+}
+
+h1 {
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #708D89;
+    color: white;
+}
+
+input::placeholder{
+    color: #b6b6b6;
+}
+
+.cadastro {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #CF9268;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#search {
+    margin-bottom: 10px;
+}
+
+.sub{
+    color: #88888A;
+}
+
+#userList button{
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #CF9268;
+    color: white;
+    margin-bottom: 30px;
+}
