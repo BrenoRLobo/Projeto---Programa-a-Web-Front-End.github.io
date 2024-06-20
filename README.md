@@ -16,6 +16,10 @@ Bem-vindo ao repositório do projeto MoneyMentor! Esta é uma plataforma de educ
    - A página principal exibe informações relevantes sobre finanças pessoais.
    - Os usuários podem encontrar artigos, dicas e ferramentas para melhorar sua gestão financeira.
 
+4. **Página de Admin:**
+   - A página admin exibe informações de nome e e-mail do cadastrado, além da data e hora do cadastro.
+   - Os admins podem cadastrar novos usuários ou excluir usuários antigos.
+
 ## Tecnologias Utilizadas
 
 - HTML
